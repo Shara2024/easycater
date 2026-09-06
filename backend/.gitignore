@@ -1,0 +1,17 @@
+# Backend dependencies
+node_modules/
+
+# Backend build output
+dist/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Backend environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log

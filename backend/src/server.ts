@@ -1,7 +1,7 @@
-import {env} from './config/env.js';
-import app from './app.js';
-import {logger} from './config/logger.js';
-import {connectDatabase} from './config/database.js';
+import { env } from '@/config/env';
+import app from '@/app';
+import { logger } from '@/config/logger';
+import { connectDatabase } from '@/config/database';
 
 await connectDatabase();
 

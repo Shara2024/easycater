@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { env } from './env.js';
-import { logger } from './logger.js';
+import { env } from '@/config/env';
+import { logger } from '@/config/logger';
 import { errorMonitor } from 'node:stream';
 
 export async function connectDatabase(): Promise<void> {
